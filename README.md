@@ -1,5 +1,11 @@
 # JS-Game-Challenge
 
+This is my first JS Game, so I chose a very easy-to-build one: a memory game for kids with "Hello Kitty" cards. If this works out fine, I will try to build a more advanced game.
+
+---
+
+Original Challenge description below:
+
 JavaScript Game
 The task
 Congratulations, you’re a JavaScript developer! Now it’s time to show the world your newly
