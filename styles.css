@@ -1,11 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family:Arial, Helvetica, sans-serif; 
+  box-sizing: border-box;
+  text-align: center;
+}
+
 body {
   display: flex;
   flex-direction: column;
-  font-family: Arial, Helvetica, sans-serif; 
+  background-color: aliceblue;
+  padding: 40px;
+  
 }
 
 h2 {
-  color: rgb(255, 0, 183)
+  color: rgb(255, 0, 183);
+  padding: 15px;
 }
 
 .grid {
@@ -14,4 +25,5 @@ h2 {
   justify-content: center;
   width: 500px;
   height: 300px;
+  margin-top: 15px;
 }
