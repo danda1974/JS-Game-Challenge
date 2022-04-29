@@ -1,4 +1,4 @@
-//card options
+// 1.
 document.addEventListener("DOMContentLoaded", () => {
   const cardArray = [
     {
@@ -66,4 +66,24 @@ document.addEventListener("DOMContentLoaded", () => {
       img: "images/HelloKitty8.png",
     },
   ];
+
+  // 2.
+  const grid = document.querySelector(".grid");
+  const resultDisplay = document.querySelector("#result");
+  let cardsChosen = [];
+  let cardsChosenId = [];
+  let cardsWon = [];
+
+  // 3.
+  function createBoard() {
+    for (let i = 0; i < cardArray.length; i++) {
+      const card = document.createElement("img");
+      card.setAttribute("src", "images/cover.png");
+      card.setAttribute("data-id", i);
+      card.addEventListener("click", flipCard);
+      grid.appendChild(card);
+    }
+  }
+
+  createBoard();
 });

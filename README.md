@@ -2,7 +2,7 @@
 
 This is my first JS Game, so I chose a very easy-to-build one: a grid-based memory game for kids with "Hello Kitty" cards. If this works out fine, I will try to build a more advanced game.
 
-In this game you have to flip over 2 cars out of a grid of 16 cards, and if they match it's 1 point for the player, and the cards are taken off the board. The game is over, when all cards flipped over matched.
+In this game you have to flip over 2 cards out of a grid of 16 cards, and if they match it's 1 point for the player, and the cards are taken off the board. The game is over, when all cards flipped over matched.
 
 ---
 
